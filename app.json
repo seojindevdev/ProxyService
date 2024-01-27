@@ -16,8 +16,7 @@
     },
     "ALLOWED_HOSTS": {
       "description": "If USE_WHITELIST is true, allow only these hosts for proxy requests. Otherwise, these will be used to find the default protocol to use for the host. If it is not included in here, the protocol used will be https. The default hosts below are all Roblox hosts. This is a comma separated list of additional hosts (no spaces) with each entry in the format protocol:host.",
-      "value": "roblox.com,www.roblox.com,api.roblox.com,wiki.roblox.com,assetgame.roblox.com,avatar.roblox.com,groups.roblox.com,data.roblox.com,inventory.roblox.com,search.roblox.com,auth.roblox.com,avatar.roblox.com,billing.roblox.com,chat.roblox.com,develop.roblox.com,notifications.roblox.com,games.roblox.com"
-    },
+      "value": "roblox.com,www.roblox.com,api.roblox.com,wiki.roblox.com,assetgame.roblox.com,avatar.roblox.com,groups.roblox.com,data.roblox.com,inventory.roblox.com,search.roblox.com,auth.roblox.com,avatar.roblox.com,billing.roblox.com,chat.roblox.com,develop.roblox.com,notifications.roblox.com,games.roblox.com,twostepverification.roblox.com,"
     "USE_OVERRIDE_STATUS": {
       "description": "If true, requests are always returned with status code 200 but the data contains the true status code of the proxy response.",
       "required": "true",
